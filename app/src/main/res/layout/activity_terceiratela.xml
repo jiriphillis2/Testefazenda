@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/system_neutral1_100"
+    tools:context=".terceiratela">
+
+    <View
+        android:id="@+id/view"
+        style="@style/ContainerComponents"
+        android:layout_width="416dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="97dp"
+        android:backgroundTint="@color/Marrom"
+        app:layout_constraintBottom_toTopOf="@+id/ic_escudolorecuperar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/edit_text"
+        android:layout_marginTop="50dp"
+        android:inputType="textEmailAddress"
+        android:text="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_inforrecuperarpart2" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_enviar" />
+
+    <ImageView
+        android:id="@+id/ic_escudolorecuperar"
+        android:layout_width="112dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="97dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:srcCompat="@drawable/ic_escudo" />
+
+    <TextView
+        android:id="@+id/id_problemasplogar"
+        android:layout_width="202dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:text="Problemas para logar?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_escudolorecuperar" />
+
+    <TextView
+        android:id="@+id/id_inforecuperar"
+        android:layout_width="310dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Escreva um email e enviaremos um"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_problemasplogar" />
+
+    <TextView
+        android:id="@+id/id_inforrecuperarpart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="código de redefinição de senha"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_inforecuperar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_enviar"
+        style="@style/Button"
+        android:text="Enviar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif"
+        android:text="CRIE SUA CONTA"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:tint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:tint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

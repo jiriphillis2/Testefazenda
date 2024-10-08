@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/agdasima</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/arizonia</item>
+        <item>@font/dancing_script</item>
+        <item>@font/licorice</item>
+        <item>@font/mea_culpa</item>
+        <item>@font/mr_de_haviland</item>
+        <item>@font/ms_madi</item>
+        <item>@font/my_soul</item>
+        <item>@font/neonderthaw</item>
+        <item>@font/petit_formal_script</item>
+        <item>@font/sassy_frass</item>
+        <item>@font/send_flowers</item>
+        <item>@font/splash</item>
+        <item>@font/stalemate</item>
+        <item>@font/the_nautigal</item>
+        <item>@font/updock</item>
+        <item>@font/viaoda_libre</item>
+        <item>@font/vibes</item>
+        <item>@font/waterfall</item>
+        <item>@font/whisper</item>
+    </array>
+</resources>
