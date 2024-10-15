@@ -11,13 +11,13 @@
     <View
         android:id="@+id/view"
         style="@style/ContainerComponents"
-        android:layout_width="416dp"
+        android:layout_width="752dp"
         android:layout_height="106dp"
         android:layout_marginBottom="97dp"
         android:backgroundTint="@color/Marrom"
         app:layout_constraintBottom_toTopOf="@+id/ic_escudolorecuperar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />

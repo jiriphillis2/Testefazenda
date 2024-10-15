@@ -8,10 +8,168 @@
     android:background="@color/Bege"
     tools:context=".quintatela">
 
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:text="Café Robusta"
+        android:textColor="@color/Marrom"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:text="Café Catuaí"
+        android:textColor="@color/Marrom"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="328dp"
+        android:text="Café Acaiá"
+        android:textColor="@color/Marrom"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="436dp"
+        android:text="Café Arábica"
+        android:textColor="@color/Marrom"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="192dp"
+        android:text="Café Bourbon"
+        android:textColor="@color/Marrom"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView29"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="192dp"
+        android:text="Café Geisha"
+        android:textColor="@color/Marrom"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView29"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="192dp"
+        android:text="Café Kona"
+        android:textColor="@color/Marrom"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView29"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.496"
+        app:srcCompat="@drawable/ic_café4" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="67dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.082"
+        app:srcCompat="@drawable/ic_café2" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.508"
+        app:srcCompat="@drawable/ic_café3" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="63dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="456dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_containercomponents3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_café1" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="40dp"
         android:layout_height="48dp"
+        android:layout_marginTop="62dp"
         android:background="@color/Marrom"
         android:clickable="true"
         android:drawingCacheQuality="auto"
@@ -27,10 +185,14 @@
         app:backgroundTint="@color/Marrom"
         app:fabCustomSize="40dp"
         app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton2"
+        app:layout_constraintVertical_bias="0.0"
         app:rippleColor="@color/white"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="313dp" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton2"
@@ -51,15 +213,20 @@
         app:backgroundTint="@color/Marrom"
         app:fabCustomSize="40dp"
         app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_containercomponents3"
+        app:layout_constraintVertical_bias="0.269"
         app:rippleColor="@color/white"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="226dp" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton7"
         android:layout_width="40dp"
         android:layout_height="48dp"
+        android:layout_marginTop="62dp"
         android:background="@color/Marrom"
         android:clickable="true"
         android:drawingCacheQuality="auto"
@@ -75,15 +242,20 @@
         app:backgroundTint="@color/Marrom"
         app:fabCustomSize="40dp"
         app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton"
+        app:layout_constraintVertical_bias="0.0"
         app:rippleColor="@color/white"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton8"
         android:layout_width="40dp"
         android:layout_height="48dp"
+        android:layout_marginTop="62dp"
         android:background="@color/Marrom"
         android:clickable="true"
         android:drawingCacheQuality="auto"
@@ -99,15 +271,20 @@
         app:backgroundTint="@color/Marrom"
         app:fabCustomSize="40dp"
         app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton7"
+        app:layout_constraintVertical_bias="0.0"
         app:rippleColor="@color/white"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton9"
         android:layout_width="40dp"
         android:layout_height="48dp"
+        android:layout_marginTop="44dp"
         android:background="@color/Marrom"
         android:clickable="true"
         android:drawingCacheQuality="auto"
@@ -123,10 +300,43 @@
         app:backgroundTint="@color/Marrom"
         app:fabCustomSize="40dp"
         app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton10"
+        app:layout_constraintVertical_bias="0.05"
         app:rippleColor="@color/white"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="313dp" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton11"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/Marrom"
+        android:clickable="true"
+        android:drawingCacheQuality="auto"
+        android:foregroundTint="@color/white"
+        android:foregroundTintMode="add"
+        android:importantForAccessibility="noHideDescendants"
+        android:labelFor="@id/id_containercomponents2"
+        android:scaleType="fitStart"
+        android:textAlignment="center"
+        android:textDirection="ltr"
+        android:tintMode="screen"
+        android:visibility="visible"
+        app:backgroundTint="@color/Marrom"
+        app:fabCustomSize="40dp"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/floatingActionButton9"
+        app:layout_constraintVertical_bias="0.076"
+        app:rippleColor="@color/white"
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton10"
@@ -147,10 +357,14 @@
         app:backgroundTint="@color/Marrom"
         app:fabCustomSize="40dp"
         app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_containercomponents3"
+        app:layout_constraintVertical_bias="0.269"
         app:rippleColor="@color/white"
-        app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="226dp" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
     <View
         android:id="@+id/id_containercomponents3"
@@ -160,21 +374,34 @@
         android:backgroundTint="@color/Marrom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/id_containercomponents3"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/ic_pessoacadastro"
+        app:tint="#FFFFFF"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="672dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/id_containercomponents2"
+        app:layout_constraintTop_toTopOf="@+id/id_containercomponents3"
         app:layout_constraintVertical_bias="0.031"
         app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
 
@@ -182,14 +409,109 @@
         android:id="@+id/imageView13"
         android:layout_width="34dp"
         android:layout_height="36dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="668dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/id_containercomponents2"
-        app:layout_constraintVertical_bias="0.017"
+        app:layout_constraintTop_toTopOf="@+id/id_containercomponents3"
+        app:layout_constraintVertical_bias="0.031"
         app:srcCompat="@android:drawable/ic_search_category_default"
         app:tint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031"
+        app:srcCompat="@drawable/ic_carrinhopng2"
+        app:tint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/id_NomeCompleto2"
+        style="@style/edit_text"
+        android:layout_width="218dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4DAB9090"
+        android:text="pesquisa"
+        android:textColor="@android:color/transparent"
+        android:typeface="sans"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="78dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="548dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="0.011"
+        app:srcCompat="@drawable/ic_xicara"
+        app:tint="@color/Marrom" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Produtos"
+        android:textColor="@color/Marrom"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_containercomponents3"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="108dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_containercomponents3"
+        app:srcCompat="@drawable/ic_café5" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="79dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_containercomponents3"
+        app:layout_constraintVertical_bias="0.391"
+        app:srcCompat="@drawable/ic_café6" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="96dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_containercomponents3"
+        app:layout_constraintVertical_bias="0.579"
+        app:srcCompat="@drawable/ic_café7" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

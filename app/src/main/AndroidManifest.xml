@@ -11,6 +11,18 @@
         android:theme="@style/Theme.Appfazendaurbana"
         tools:targetApi="31">
         <activity
+            android:name=".nonatela"
+            android:exported="false" />
+        <activity
+            android:name=".oitavatela"
+            android:exported="false" />
+        <activity
+            android:name=".setimatela"
+            android:exported="false" />
+        <activity
+            android:name=".sextatela"
+            android:exported="false" />
+        <activity
             android:name=".quintatela"
             android:exported="false" />
         <activity

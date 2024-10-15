@@ -17,7 +17,6 @@
     tools:context=".MainActivity">
 
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="330dp"
@@ -30,6 +29,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@android:drawable/divider_horizontal_bright" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="223dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/begeescuro"
+        android:text="Login"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -130,7 +144,8 @@
         android:layout_width="253dp"
         android:layout_height="53dp"
         android:layout_marginTop="56dp"
-        android:background="@color/begeescuro"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/begeescuro"
         android:text="E-mail"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -145,7 +160,8 @@
         android:layout_width="253dp"
         android:layout_height="53dp"
         android:layout_marginTop="4dp"
-        android:background="@color/begeescuro"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/begeescuro"
         android:text="Senha"
         android:textSize="16sp"
         android:textStyle="bold"
