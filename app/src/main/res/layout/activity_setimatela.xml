@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setimatela">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/id_containercomponents5"
+            style="@style/ContainerComponents"
+            android:layout_width="744dp"
+            android:layout_height="74dp"
+            android:backgroundTint="@color/Marrom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/top_half"
+            android:layout_width="733dp"
+            android:layout_height="220dp"
+            android:background="@color/Bege"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintHorizontal_bias="0.419"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_containercomponents5"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="33dp"
+            android:layout_height="31dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.875"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.031"
+            app:srcCompat="@drawable/ic_carrinhopng2"
+            app:tint="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="31dp"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.989"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.03"
+            app:srcCompat="@drawable/ic_pessoacadastro"
+            app:tint="#FFFFFF"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.132"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/id_containercomponents5"
+            app:layout_constraintVertical_bias="0.027"
+            app:srcCompat="@android:drawable/ic_search_category_default"
+            app:tint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/id_NomeCompleto4"
+            style="@style/edit_text"
+            android:layout_width="218dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#4DAB9090"
+            android:text="pesquisa"
+            android:textColor="@android:color/transparent"
+            android:typeface="sans"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.011" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.042"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/id_containercomponents5"
+            app:layout_constraintVertical_bias="0.031"
+            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+        <View
+            android:id="@+id/top_half2"
+            android:layout_width="276dp"
+            android:layout_height="305dp"
+            android:background="@color/Bege"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_containercomponents5"
+            app:layout_constraintVertical_bias="0.723" />
+
+        <EditText
+            android:id="@+id/id_NomeCompleto5"
+            style="@style/edit_text"
+            android:layout_width="251dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:hint="Número do cartão"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/top_half2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/id_NomeCompleto9"
+            style="@style/edit_text"
+            android:layout_width="251dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:hint="Nome no cartão"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_NomeCompleto10"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/id_NomeCompleto10"
+            style="@style/edit_text"
+            android:layout_width="251dp"
+            android:layout_height="48dp"
+            android:hint="XXX.XXX.XXX-XX"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/top_half2"
+            app:layout_constraintVertical_bias="0.396" />
+
+        <EditText
+            android:id="@+id/id_NomeCompleto8"
+            style="@style/edit_text"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="80dp"
+            android:hint="CVV"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.745"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/top_half2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/id_NomeCompleto11"
+            style="@style/edit_text"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="80dp"
+            android:hint="Validade"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.264"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/top_half2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/id_containercomponents9"
+            style="@style/ContainerComponents"
+            android:layout_width="145dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="172dp"
+            android:backgroundTint="@color/begeescuro"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.131"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_containercomponents5"
+            app:layout_constraintVertical_bias="0.035" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="223dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/begeescuro"
+            android:text="Concluir"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/top_half2"
+            app:layout_constraintVertical_bias="0.214" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Formas de pagamento"
+            android:textColor="@color/Marrom"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_containercomponents5"
+            app:layout_constraintVertical_bias="0.129" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Débito"
+            android:textColor="@color/Marrom"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/id_containercomponents9"
+            app:layout_constraintVertical_bias="0.043" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
